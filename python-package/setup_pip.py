@@ -48,8 +48,8 @@ setup(name='xgboost',
           'numpy',
           'scipy',
       ],
-      maintainer='Hyunsu Cho',
-      maintainer_email='chohyu01@cs.washington.edu',
+      maintainer='Marcus McCurdy',
+      maintainer_email='mmccurdy@red-spark.com',
       zip_safe=False,
       packages=find_packages(),
       # don't need this and don't use this, give everything to MANIFEST.in
@@ -64,4 +64,4 @@ setup(name='xgboost',
       # root directory for some machines, and cause confusions on building
       # data_files=[('xgboost', LIB_PATH)],
       distclass=BinaryDistribution,
-      url='https://github.com/dmlc/xgboost')
+      url='https://github.com/50onred/xgboost')
