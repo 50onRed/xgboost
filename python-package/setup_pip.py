@@ -41,7 +41,7 @@ if len(sys.argv) < 2 or sys.argv[1] != 'sdist':
 
     LIB_PATH = libpath['find_lib_path']()
 
-setup(name='xgboost',
+setup(name='redspark-xgboost',
       version=open(os.path.join(CURRENT_DIR, 'xgboost/VERSION')).read().strip(),
       description='XGBoost Python Package',
       install_requires=[
